@@ -1,0 +1,286 @@
+/*whole websites base styling*/
+body{
+	background-color: #CDF5FD;
+	font-family: 'Trebuchet MS';
+}
+
+.navbar ul{
+	list-style-type: none;
+    display: block;
+	width: 120px;
+	font-size: 20px;
+  	border: 2px solid black;
+	margin-left: 10px;
+	background-color: #F1EFEF;
+	padding: 20px;
+}
+.navbar a{
+	display: block;
+	padding: 20px;
+	text-decoration: none;
+	color: Black;
+}
+.navbar a:hover{
+	width: 120px;
+	color: rgb(0, 0, 0); 
+	font-size: 25px;
+	padding: 20px;
+	border: 2px solid black;
+	background-color: #9a9494;
+}
+
+/*Products page styling*/
+#product-Section{
+	border: 2px solid black;
+	background-color: #00A9FF;
+	float: right;
+	width: 105rem;
+	height: auto;
+}
+#searchBar-Holder{
+	border: 3px solid black;
+	background-color: #89CFF3;
+	margin: 1rem;
+	float: right;
+	width: 15rem;
+	height: 4.4rem;
+	text-align: center;
+}
+#XML-Holder{
+	border: 3px solid black;
+	background-color: #A0E9FF;
+	margin: 1rem;
+	float: left;
+	margin-right: 1rem;
+	width: 103rem;
+	height: auto;
+	text-align: center;
+}
+#searchBar{
+	padding: 0.2rem;
+	margin: 1rem;
+	margin-left: 0.5rem;
+	width: 13rem;
+	height: 2rem;
+}
+/*XML element styling*/
+Product{
+	display: block; 
+  	text-align: left;
+  	border: 2px solid black;
+	color: black;
+	font-size: 1.3rem;
+	background-color: white;
+ 	margin: 1rem;
+	padding: 1rem;
+	width: 30rem;
+	float: left;
+}
+Catagory{
+	display: list-item;
+	list-style-type: none;
+  	margin-left: 10px;
+	padding: 5px;
+}
+
+Catagory:before{
+	content: "Catagory: ";
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+Code{
+	display: list-item;
+	list-style-type: none;
+  	margin-left: 10px;
+	padding: 5px;
+}
+
+Code:before{
+	content: "Code: ";
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+Name{
+	display: list-item;
+	list-style-type: none;
+	margin-left: 10px;
+	padding: 5px;
+}
+Name:before{
+	content: "Name: ";
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+Description{
+	display: list-item;
+	list-style-type: none;
+	margin-left: 10px;
+	padding: 5px;
+}
+Description:before{
+	content: "Description: ";
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+Quantity{
+	display: list-item;
+	list-style-type: none;
+	margin-left: 10px;
+	padding: 5px;
+}
+Quantity:before{
+	content: "In Stock: ";
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+unitPrice{
+	display: list-item;
+	list-style-type: none;
+	margin-left: 10px;
+	padding: 5px;
+	font-size: 1.5rem;
+}
+unitPrice:before{
+	content: "Price: €";
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+/*Responsiveness of products page*/
+@media (max-width: 1440px){ /*For 1440px laptops*/
+	#product-Section{
+		border: 2px solid black;
+		background-color: #00A9FF;
+		float: right;
+		width: 70rem;
+		height: auto;
+	}
+	#XML-Holder{
+		border: 3px solid black;
+		background-color: #A0E9FF;
+		margin: 1rem;
+		float: left;
+		margin-right: 1rem;
+		width: 67rem;
+		height: auto;
+		text-align: center;
+	}
+	Product{
+		display: block; 
+		text-align: left;
+		border: 2px solid black;
+		color: black;
+		font-size: 1.2rem;
+		background-color: white;
+		margin: 0.5rem;
+		padding: 0.5rem;
+		width: 31rem;
+		float: left;
+	}
+}
+
+@media (max-width: 1024px){ /*For 1024px laptops*/
+	#product-Section{
+		border: 2px solid black;
+		background-color: #00A9FF;
+		float: right;
+		width: 50rem;
+		height: auto;
+	}
+	#XML-Holder{
+		border: 3px solid black;
+		background-color: #A0E9FF;
+		margin: 1rem;
+		float: left;
+		margin-right: 1rem;
+		width: 48rem;
+		height: auto;
+		text-align: center;
+	}
+	Product{
+		display: block; 
+		text-align: left;
+		border: 2px solid black;
+		color: black;
+		font-size: 1.2rem;
+		background-color: white;
+		margin: 0.5rem;
+		padding: 0.5rem;
+		width: 18rem;
+		float: left;
+	}
+}
+
+@media (max-width: 768px){ /*For tablets*/
+	#product-Section{
+		border: 2px solid black;
+		background-color: #00A9FF;
+		float: right;
+		width: 35rem;
+		height: auto;
+	}
+	#XML-Holder{
+		border: 3px solid black;
+		background-color: #A0E9FF;
+		margin: 1rem;
+		float: left;
+		margin-right: 1rem;
+		width: 32rem;
+		height: auto;
+		text-align: center;
+	}
+	Product{
+		display: block; 
+		text-align: left;
+		border: 2px solid black;
+		color: black;
+		font-size: 1.2rem;
+		background-color: white;
+		margin: 0.5rem;
+		padding: 0.5rem;
+		width: 25rem;
+		float: left;
+	}
+}
+@media (max-width: 425px){ /*For phones*/
+	#product-Section{
+		border: 2px solid black;
+		background-color: #00A9FF;
+		float: right;
+		width: 25rem;
+		height: auto;
+	}
+	#XML-Holder{
+		border: 3px solid black;
+		background-color: #A0E9FF;
+		margin: 1rem;
+		float: left;
+		margin-right: 1rem;
+		width: 20rem;
+		height: auto;
+		text-align: center;
+	}
+	Product{
+		display: block; 
+		text-align: left;
+		border: 2px solid black;
+		color: black;
+		font-size: 1.2rem;
+		background-color: white;
+		margin: 0.5rem;
+		padding: 0.5rem;
+		width: 18rem;
+		float: left;
+	}
+	.navbar ul{
+		list-style-type: none;
+		display: block;
+		width: 120px;
+		font-size: 20px;
+		border: 2px solid black;
+		margin-left: 10px;
+		margin-top: 15px;
+		background-color: #F1EFEF;
+		padding: 20px;
+	}
+}

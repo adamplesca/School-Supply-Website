@@ -1,0 +1,252 @@
+/*whole websites base styling*/
+body{
+	background-color: #CDF5FD;
+	font-family: 'Trebuchet MS';
+}
+/*main page logo styling*/
+#shop-Name{
+	font-size: 80px;
+	text-align: center;
+	border: 2px solid black;
+	width: 94%;
+	height: 20%;
+	padding: 50px;
+	margin: 10px;
+	background-color: #00A9FF;
+	font: white;
+}
+/*Universal styling for navabar through whole website*/
+.navbar ul{
+	list-style-type: none;
+    display: block;
+	width: 120px;
+	font-size: 20px;
+  	border: 2px solid black;
+	margin-left: 10px;
+	background-color: #F1EFEF;
+	padding: 20px;
+}
+.navbar a{
+	display: block;
+	padding: 20px;
+	text-decoration: none;
+	color: Black;
+}
+.navbar a:hover{
+	width: 120px;
+	color: rgb(0, 0, 0);
+	font-size: 25px;
+	padding: 20px;
+	border: 2px solid black;
+	background-color: #9a9494;
+}
+/*Styling for about section main page*/
+#about{
+	border: 2px solid black;
+	float: right;
+	margin: .40rem;
+	width: 105rem;
+	height: 40rem;
+	background-color: #89CFF3;
+}
+#hereLink{
+	text-decoration: none;
+	color: rgb(234, 46, 46);
+}
+img{
+	border: 5px solid black;
+	margin: 3rem;
+	width: 40rem;
+	height: 20rem;
+	float: right;
+}
+#text-Holder{
+	margin: 3rem;
+	float: left;
+	width: 50rem;
+	height: 20rem;
+	background-color: #89CFF3; 
+	font-size: 1.64rem;
+	padding: 1rem;
+}
+#text-Holder-Two{
+	margin-top: -3rem;
+	margin-left: 3rem;
+	float: left;
+	background-color: #89CFF3;
+	font-size: 1.64rem;
+	padding: 1rem;
+	width: 97rem;
+	height: 10rem;
+}
+
+/*Responsiveness of whole site*/
+@media (max-width: 1600px){ /*L laptops*/
+	#about{
+		border: 2px solid black;
+		margin: .40rem;
+		width: 70rem;
+		height: 65rem;
+		background-color: #89CFF3;
+	}
+	img{
+		border: 2px solid black;
+		margin-left: 21rem;
+		width: 30rem;
+		height: 15rem;
+		float: left;
+	}
+	#text-Holder{
+		margin: 3rem;
+		float: left;
+		width: 60rem;
+		height: 20rem;
+		background-color: #89CFF3; 
+		font-size: 1.64rem;
+		padding: 1rem;
+	}
+	#text-Holder-Two{
+		float: left;
+		background-color: #89CFF3;
+		font-size: 1.64rem;
+		padding: 1rem;
+		width: 60rem;
+		height: 10rem;
+	}
+}
+@media (max-width: 1300px){ /*M laptops*/
+	#about{
+		border: 2px solid black;
+		margin: .40rem;
+		width: 50rem;
+		height: 80rem;
+		background-color: #89CFF3;
+	}
+	img{
+		border: 2px solid black;
+		margin-left: 12rem;
+		width: 30rem;
+		height: 15rem;
+		float: left;
+	}
+	#text-Holder{
+		margin: 3rem;
+		float: left;
+		width: 40rem;
+		height: 20rem;
+		background-color: #89CFF3; 
+		font-size: 1.64rem;
+		padding: 1rem;
+	}
+	#text-Holder-Two{
+		float: left;
+		background-color: #89CFF3;
+		font-size: 1.64rem;
+		padding: 1rem;
+		margin-top: 5rem;
+		width: 40rem;
+		height: 10rem;
+	}
+}
+@media (max-width: 1050px){ /*S laptops*/
+	#about{
+		border: 2px solid black;
+		margin: .40rem;
+		width: 40rem;
+		height: 95rem;
+		background-color: #89CFF3;
+	}
+	img{
+		border: 2px solid black;
+		margin-left: 5rem;
+		width: 30rem;
+		height: 15rem;
+		float: left;
+	}
+	#text-Holder{
+		margin: 3rem;
+		float: left;
+		width: 30rem;
+		height: 20rem;
+		background-color: #89CFF3; 
+		font-size: 1.64rem;
+		padding: 1rem;
+	}
+	#text-Holder-Two{
+		float: left;
+		background-color: #89CFF3;
+		font-size: 1.64rem;
+		margin-top: 13rem;
+		padding: 1rem;
+		width: 30rem;
+		height: 10rem;
+	}
+}
+@media (max-width: 850px){ /* ipads */
+	#about{
+		border: 2px solid black;
+		margin: .40rem;
+		width: 30rem;
+		height: 110rem;
+		background-color: #89CFF3;
+	}
+	img{
+		border: 2px solid black;
+		margin-left: 3rem;
+		width: 24rem;
+		height: 12rem;
+		float: left;
+	}
+	#text-Holder{
+		margin: 3rem;
+		float: left;
+		width: 24rem;
+		height: 20rem;
+		background-color: #89CFF3; 
+		font-size: 1.64rem;
+		padding: 1rem;
+	}
+	#text-Holder-Two{
+		float: left;
+		background-color: #89CFF3;
+		font-size: 1.64rem;
+		margin-top: 21rem;
+		padding: 1rem;
+		width: 24rem;
+		height: 10rem;
+	}
+}
+@media (max-width: 550px){ /*Phones*/
+	#about{
+		border: 2px solid black;
+		margin: .40rem;
+		width: 24rem;
+		height: 132rem;
+		background-color: #89CFF3;
+	}
+	img{
+		border: 2px solid black;
+		margin-left: 2rem;
+		width: 20rem;
+		height: 10rem;
+		float: left;
+	}
+	#text-Holder{
+		margin: 3rem;
+		float: left;
+		width: 19rem;
+		height: 20rem;
+		background-color: #89CFF3; 
+		font-size: 1.64rem;
+		padding: 1rem;
+	}
+	#text-Holder-Two{
+		float: left;
+		background-color: #89CFF3;
+		font-size: 1.64rem;
+		margin-top: 35rem;
+		padding: 1rem;
+		width: 19rem;
+		height: 10rem;
+	}
+}
